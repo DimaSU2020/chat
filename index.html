@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Chat</title>
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+  
+  
 </head>
 <body>
 
@@ -12,8 +15,19 @@
     <div class="tuning">Настройки</div>
     <div class="menu">Выйти</div>
   </header>
-
+  
+  
   <main class="main">
+    
+    
+    <div class="output">
+      <script type="module">
+        import {sayHi} from 'main.js';
+        document.body.innerHTML = sayHi('Дима');
+      </script>
+     
+     
+    </div>
     <div class="output">Я: Добрый день!</div>
     <div class="input">Собеседник мой: Добрый день!</div>
     <div class="input">Собеседник мой: А это второе и, кажется, оно очень 
