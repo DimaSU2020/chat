@@ -1,43 +1,118 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chat</title>
-  <link rel="stylesheet" href="style.css">
-  <script type="module" src="./main.js"></script> 
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link href="javascript.png" rel="shortcut icon">
+    <link href="style.css" rel="stylesheet">
+    <script type="module" src="./main.js"></script> 
+  </head>
+  <body>
+    <section class="first">
+      <div class="dialog">
 
-  
+        <header class="header">
+          <button class="header-tuning">Настройки</button>
+          <button class="header__exit">Выйти</button>
+        </header>
+        
+        <main class="main">
+          
+          <div class="output">
+            <div class="output__dialog"><span>Я: Добрый день!</span></div>
+            <div class="output__watch"><span>18:45</span></div>
+          </div>
+          <div class="input">
+            <div class="input__dialog"><span>Собеседник мой: Добрый день!</span></div>
+            <div class="input__watch"><span>18:45</span></div>
+          </div>
+          <div class="input">
+            <div class="input__dialog"><span>Собеседник мой: А это второе и, кажется, оно очень 
+            длинное, чтобы поместиться на 
+            одной строке</span>
+            </div>
+            <div class="input__watch"><span>18:45</span></div>
+          </div>
+          <div class="output output_not_sended">
+            <div class="output__dialog"><span>Я: Добрый день!</span></div>
+            <div class="output__watch"><span>18:45</span></div>
+          </div>
+        
+        </main>
+        
+        <footer class="footer">
+          <div class="message"><span>сообщение...</span></div>
+          <button class="exit">-></button>
+        </footer>
 
-  <header class="header">
-    <div class="tuning">Настройки</div>
-    <div class="menu">Выйти</div>
-  </header>
+      </div>
+    </section>
+
+    <section class="second">
+      <div class="create">
+        
+        <header class="create__header">
+          <div class="creat__acount"><span>Создать аккаунт</span></div>
+          <button class="create__exit"> X </button>
+        </header>
+        
+        <main class="create__main">
+          <div class="create__name"><span>Имя (логин)</span></div>
+          <div class="enter__field"> </div>
+          <div class="create__input"><span>Пароль</span></div>
+          <div class="enter__field"> </div>
+          <button class="create__button">Создать</button>
+        </main>
+        
+        <footer class="create__footer">
+          <button class="create__acount"><sapn>У меня уже есть аккаунт (войти)</sapn></button>
+        </footer>
+        
+      </div>
+    </section>
+
+    <section class="third">
+      <div class="author">
+          
+          <header class="author__header">
+            <div class="author__reg"><span>Авторизация</span></div>
+            <button class="author__exit"> X </button>
+          </header>
+          
+          <main class="author__main">
+            <div class="author__name"><span>Имя (логин)</span></div>
+            <div class="enter__field"> </div>
+            <div class="author__input"><span>Пароль</span></div>
+            <div class="enter__field"> </div>
+            <button class="author__button"><span>Войти</span></button>
+          </main>
+          
+          <footer class="author__footer">
+            <button class="author__acount"><span>Регистрация</span></button>
+          </footer>
+          
+      </div>
+    </section>
   
-  
-  <main class="main">
+    <section class="fourth">
+      <div class="tuning">
+          
+        <header class="tuning__header">
+          <div class="tuning__reg"><span>Настройки</span></div>
+          <button class="tuning__break"> X </button>
+        </header>
+
+        <main class="tuning__main">
+          <div class="tuning__name"><span>Имя в чате</span></div>
+          <div class="tuning__namechat">
+              <div class="tuning__nameenter"><span>Стив</span></div>
+              <button class="tuning__exit">-></button>
+          </div>
+        </main>
     
-    <div class="output">Я: Добрый день!</div>
-    <div class="input">Собеседник мой: Добрый день!</div>
-    <div class="input">Собеседник мой: А это второе и, кажется, оно очень 
-      длинное, чтобы поместиться на 
-      одной строке</div>
-    <div class="output output_not-sended">Я: Добрый день!</div>
-   
-  </main>
-  <!-- разбираюсь как писать popup 
-    <div class="popup">
-    <div class="text">Настройки</div>
-    <div class="menu-popup">Выйти</div>
-  </div> -->
-
-  <footer class="footer">
-    <div class="message">сообщение...</div>
-    <div class="exit"> -> </div>
-  </footer>
-
-  
-</body>
+      </div>
+    </section>
+        
+  </body>
 </html>
