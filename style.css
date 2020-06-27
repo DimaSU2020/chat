@@ -128,7 +128,7 @@ body {
   max-width: 99%;
   margin: 4% 4% 4% 7%; 
 }
-.create__acount {
+.create__name {
   text-align: left;
   padding: 5px 5px 5px 18px;
   width: 70%;
@@ -347,11 +347,11 @@ body {
   }
   .attention {
     font-size: 3rem;
-    animation: attention 1.7s infinite;
+    animation: attention 5s infinite;
   }
   @keyframes attention {
-    from { opacity: 1;}
-    to { opacity: 0;}
+    from { opacity: 0;}
+    to { opacity: 1;}
   }
 }
 

@@ -1,6 +1,10 @@
 export const btnTuning = document.querySelector(".header__tuning");
 export const btnHeadExit = document.querySelector(".header__exit");
 export const areaDialog = document.querySelector(".main");
+export const chatInput = document.querySelector(".input");
+export const chatInputWatch = document.querySelector(".input__watch");
+export const chatOutput = document.querySelector(".output");
+export const chatOutputWatch = document.querySelector(".output__watch");
 export const areaMessage = document.querySelector(".message");
 export const btnExit = document.querySelector(".exit");
 export const modalCreate = document.querySelector(".create");
