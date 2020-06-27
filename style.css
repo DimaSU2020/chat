@@ -98,7 +98,7 @@ body {
   border: 1px solid black;
   font-family: Roboto, sans-serif;
 }
-.exit {
+.enter {
   text-align: center;
   padding: 5px 5px 5px 5px;
   width: 8%;
@@ -151,12 +151,14 @@ body {
   min-height: 35vh;
   margin: 0 2% 45% 2%;
 }
-.create__name, .create__input {
+.create__nickname, 
+.create__parol {
   font-family: Roboto, sans-serif;
   font-size: 16px; 
   margin-left: 5%;
 }
-.enter__field {
+.create__nickname, 
+.create__password {
   align-self: center;
   width: 90%;
   height: 25px;
@@ -223,12 +225,12 @@ body {
   min-height: 35vh;
   margin: 0 2% 45% 2%;
 }
-.author__name, .author__input {
+.author__name, .author__parol {
   font-family: Roboto, sans-serif;
   font-size: 16px; 
   margin-left: 5%;
 }
-.enter__field {
+.author__nickname, .author__password {
   align-self: center;
   width: 90%;
   height: 25px;
@@ -313,7 +315,7 @@ body {
   width: 80%;
   border: 1px solid black;
 }
-.tuning__exit {
+.tuning__enter {
   display: block;
   text-align: center;
   padding: 5px 5px 5px 5px;
