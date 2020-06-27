@@ -9,11 +9,11 @@
     <script type="module" src="./main.js"></script> 
   </head>
   <body>
-    <section class="first">
+    <section class="section">
       <div class="dialog">
 
         <header class="header">
-          <button class="header-tuning">Настройки</button>
+          <button class="header__tuning">Настройки</button>
           <button class="header__exit">Выйти</button>
         </header>
         
@@ -49,8 +49,8 @@
       </div>
     </section>
 
-    <section class="second">
-      <div class="create">
+    <section class="section">
+      <div class="block-popup">
         
         <header class="create__header">
           <div class="creat__acount"><span>Создать аккаунт</span></div>
@@ -72,31 +72,31 @@
       </div>
     </section>
 
-    <section class="third">
-      <div class="author">
+    <section class="section">
+      <div class="block-popup">
           
-          <header class="author__header">
-            <div class="author__reg"><span>Авторизация</span></div>
-            <button class="author__exit"> X </button>
-          </header>
-          
-          <main class="author__main">
-            <div class="author__name"><span>Имя (логин)</span></div>
-            <div class="enter__field"> </div>
-            <div class="author__input"><span>Пароль</span></div>
-            <div class="enter__field"> </div>
-            <button class="author__button"><span>Войти</span></button>
-          </main>
-          
-          <footer class="author__footer">
-            <button class="author__acount"><span>Регистрация</span></button>
-          </footer>
+        <header class="author__header">
+          <div class="author__reg"><span>Авторизация</span></div>
+          <button class="author__exit"> X </button>
+        </header>
+        
+        <main class="author__main">
+          <div class="author__name"><span>Имя (логин)</span></div>
+          <div class="enter__field"> </div>
+          <div class="author__input"><span>Пароль</span></div>
+          <div class="enter__field"> </div>
+          <button class="author__button"><span>Войти</span></button>
+        </main>
+        
+        <footer class="author__footer">
+          <button class="author__acount"><span>Регистрация</span></button>
+        </footer>
           
       </div>
     </section>
   
-    <section class="fourth">
-      <div class="tuning">
+    <section class="section">
+      <div class="block-popup">
           
         <header class="tuning__header">
           <div class="tuning__reg"><span>Настройки</span></div>
@@ -110,9 +110,11 @@
               <button class="tuning__exit">-></button>
           </div>
         </main>
-    
+
       </div>
     </section>
-        
+    <div class="block">
+    <span class="attention">Это приложение для экранов с шириной менее 769px</span>
+    </div>
   </body>
 </html>
