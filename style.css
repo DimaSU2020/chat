@@ -267,20 +267,20 @@ body {
   font-size: 16px; 
 }
 
-.tuning__header {
+.setting__header {
   display: flex;
   justify-content: space-between;
   max-width: 99%;
   margin: 4% 4% 4% 2%; 
 }
-.tuning__reg {
+.setting__reg {
   text-align: left;
   padding: 5px 5px 5px 10px;
   width: 70%;
   font-family: Roboto, sans-serif;
   font-size: 16px; 
 }
-.tuning__break {
+.setting__break {
   font-size: 18px;
   padding: 5px 5px 5px 5px;
   width: 9%;
@@ -289,18 +289,18 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
-.tuning__main {
+.setting__main {
   display: flex;
   flex-direction: column;
   min-height: 35vh;
   margin: 0 2% 0 2%;
 }
-.tuning__name {
+.setting__name {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   margin-left: 3%;
 }
-.tuning__namechat {
+.setting__namechat {
   display: flex;
   justify-content: space-between;
   max-width: 100%;
@@ -308,14 +308,14 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
-.tuning__nameenter {
+.setting__nameenter {
   display: block;
   text-align: start;
   padding: 5px 5px 5px 5px;
   width: 80%;
   border: 1px solid black;
 }
-.tuning__enter {
+.setting__enter {
   display: block;
   text-align: center;
   padding: 5px 5px 5px 5px;

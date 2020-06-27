@@ -1,5 +1,4 @@
 import {serverURL} from './config.js';
-console.log(`${serverURL} это я принял из config.js`);
 import {btnTuning} from './chatUIElements.js';
 import {btnHeadExit} from './chatUIElements.js';
 import {areaDialog} from './chatUIElements.js';
@@ -25,3 +24,4 @@ import {modalLogin} from './chatUIElements.js';
 import {btnBreak} from './chatUIElements.js';
 import {areaNameEnter} from './chatUIElements.js';
 import {btnTuningEnter} from './chatUIElements.js';
+import {onLineClick} from './chatView.js';
